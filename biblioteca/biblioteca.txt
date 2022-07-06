@@ -1,0 +1,20 @@
+Objetivo:
+criar uma APi RestFull para gerenecimento de biblioteca.
+
+Criar modelos:
+Funcionario: id, nome, cpf, senha.
+Aluno: id, nome, cpf, e-mail, telefone, turno.
+Livro: id, titulo, quantidade, estante, prateleira
+Emprestimo: id, data_emprestimo, data_vencimento
+
+Criar repositorios:
+metodos: obterTodos, obterPorId, adicionar, atualizar, deletar.
+
+Criar serviços: 
+metodos: obterTodos, obterPorId, adicionar, atualizar, deletar. / a difereça é que serviço deve conter regra de necocio.
+
+Criar controlles de:
+Funcionario
+Aluno
+Emprestimo
+Livro
